@@ -1,0 +1,51 @@
+body {
+    background-color: #c3ff9e;
+}
+
+button {
+    background-color: #df16e6;
+    border-radius: 100px;
+    margin-top: 75px;
+    cursor: pointer;
+    display: block;
+    justify-content: right;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-size: 25px;
+    user-select: none;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.personCardImg {
+    width: 100%;
+    height: 70%;
+    border-radius: 10%;
+}
+
+.personCard {
+    width: 300px;
+    margin: 10px;
+    height: auto;
+    background-color: rgb(206, 224, 255);
+    border-radius: 10%;
+}
+
+.personCardInfo {
+    font-family: monospace;
+    font-size: 15px;
+    margin: 0.3rem 0;
+    text-align: center;
+    color: black;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
